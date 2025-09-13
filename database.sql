@@ -2,8 +2,8 @@
 -- version 5.2.1deb3
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Jul 17, 2025 at 07:22 PM
+-- Host: localhost
+-- Generation Time: Sep 13, 2025 at 07:54 PM
 -- Server version: 8.0.42-0ubuntu0.24.04.1
 -- PHP Version: 8.3.6
 
@@ -123,7 +123,46 @@ INSERT INTO `activity_logs` (`id`, `action`, `model_type`, `model_id`, `created_
 (79, 'تم إنشاء أصل', 'App\\Models\\Asset', 17, '2025-07-14 17:50:15', '2025-07-14 17:50:15', NULL),
 (80, 'تم إنشاء صيانة', 'App\\Models\\Maintenance', 14, '2025-07-14 17:52:52', '2025-07-14 17:52:52', NULL),
 (81, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 14, '2025-07-14 17:53:51', '2025-07-14 17:53:51', NULL),
-(82, 'تم حذف أصل', 'App\\Models\\Asset', 15, '2025-07-14 17:57:59', '2025-07-14 17:57:59', 'اسم الأصل: تلاجه');
+(82, 'تم حذف أصل', 'App\\Models\\Asset', 15, '2025-07-14 17:57:59', '2025-07-14 17:57:59', 'اسم الأصل: تلاجه'),
+(83, 'تم حذف أصل', 'App\\Models\\Asset', 17, '2025-07-19 18:50:40', '2025-07-19 18:50:40', 'اسم الأصل: رشاش ماء'),
+(84, 'تم تعديل أصل', 'App\\Models\\Asset', 16, '2025-07-19 18:56:20', '2025-07-19 18:56:20', NULL),
+(85, 'تم تعديل أصل', 'App\\Models\\Asset', 16, '2025-07-19 19:14:25', '2025-07-19 19:14:25', NULL),
+(86, 'تم إنشاء صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:19:59', '2025-07-19 19:19:59', NULL),
+(87, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:28:51', '2025-07-19 19:28:51', NULL),
+(88, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:29:18', '2025-07-19 19:29:18', NULL),
+(89, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:29:37', '2025-07-19 19:29:37', NULL),
+(90, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:30:41', '2025-07-19 19:30:41', NULL),
+(91, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:31:12', '2025-07-19 19:31:12', NULL),
+(92, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:31:13', '2025-07-19 19:31:13', NULL),
+(93, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:31:14', '2025-07-19 19:31:14', NULL),
+(94, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:31:14', '2025-07-19 19:31:14', NULL),
+(95, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:31:14', '2025-07-19 19:31:14', NULL),
+(96, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:31:15', '2025-07-19 19:31:15', NULL),
+(97, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:31:15', '2025-07-19 19:31:15', NULL),
+(98, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:31:20', '2025-07-19 19:31:20', NULL),
+(99, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:32:25', '2025-07-19 19:32:25', NULL),
+(100, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:34:51', '2025-07-19 19:34:51', NULL),
+(101, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:40:14', '2025-07-19 19:40:14', NULL),
+(102, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:41:49', '2025-07-19 19:41:49', NULL),
+(103, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:41:50', '2025-07-19 19:41:50', NULL),
+(104, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:43:34', '2025-07-19 19:43:34', NULL),
+(105, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:43:56', '2025-07-19 19:43:56', NULL),
+(106, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:44:23', '2025-07-19 19:44:23', NULL),
+(107, 'تم تعديل صيانة', 'App\\Models\\Maintenance', 15, '2025-07-19 19:44:24', '2025-07-19 19:44:24', NULL),
+(108, 'Maintenance updated', 'App\\Models\\Maintenance', 15, '2025-07-19 19:52:34', '2025-07-19 19:52:34', NULL),
+(109, 'Maintenance created', 'App\\Models\\Maintenance', 16, '2025-07-19 19:54:52', '2025-07-19 19:54:52', NULL),
+(110, 'Maintenance updated', 'App\\Models\\Maintenance', 16, '2025-07-19 19:55:05', '2025-07-19 19:55:05', NULL),
+(111, 'Maintenance created', 'App\\Models\\Maintenance', 17, '2025-07-19 19:55:52', '2025-07-19 19:55:52', NULL),
+(112, 'Asset updated', 'App\\Models\\Asset', 16, '2025-07-19 19:56:13', '2025-07-19 19:56:13', NULL),
+(113, 'Asset created', 'App\\Models\\Asset', 18, '2025-07-19 19:57:06', '2025-07-19 19:57:06', NULL),
+(114, 'Asset deleted', 'App\\Models\\Asset', 18, '2025-07-19 19:58:10', '2025-07-19 19:58:10', 'Asset Name: ي'),
+(115, 'Asset created', 'App\\Models\\Asset', 19, '2025-07-22 13:08:29', '2025-07-22 13:08:29', NULL),
+(116, 'Asset updated', 'App\\Models\\Asset', 19, '2025-07-22 13:08:54', '2025-07-22 13:08:54', NULL),
+(117, 'Maintenance created', 'App\\Models\\Maintenance', 18, '2025-07-22 13:17:24', '2025-07-22 13:17:24', NULL),
+(118, 'Maintenance created', 'App\\Models\\Maintenance', 19, '2025-07-22 13:18:20', '2025-07-22 13:18:20', NULL),
+(119, 'Maintenance updated', 'App\\Models\\Maintenance', 18, '2025-07-22 13:18:49', '2025-07-22 13:18:49', NULL),
+(120, 'Asset deleted', 'App\\Models\\Asset', 16, '2025-07-22 13:21:56', '2025-07-22 13:21:56', 'Asset Name: مكيف'),
+(121, 'Asset created', 'App\\Models\\Asset', 20, '2025-07-22 14:47:34', '2025-07-22 14:47:34', NULL);
 
 -- --------------------------------------------------------
 
@@ -153,8 +192,8 @@ CREATE TABLE `assets` (
 --
 
 INSERT INTO `assets` (`id`, `name`, `purchase_date`, `maintenance_due_date`, `maintenance_cycle_months`, `last_maintenance_date`, `maintenance_interval_months`, `price`, `vendor`, `serial_number`, `department_id`, `maintenance_status`, `created_at`, `updated_at`) VALUES
-(16, 'مكيف', '2025-07-14', NULL, 2, '2025-07-14', 3, 111.00, 'محمد حسن ', 'ASSET-68756CA7A6DB4', 1, 'جيدة', '2025-07-14 17:46:31', '2025-07-14 17:46:31'),
-(17, 'رشاش ماء', '2025-07-14', NULL, 2, '2025-06-10', 3, 222.00, 'محمد حسن ', 'ASSET-68756D87601EE', 3, 'جيدة', '2025-07-14 17:50:15', '2025-07-14 17:52:52');
+(19, 'phone', '2025-07-22', NULL, 3, '2025-05-22', 3, 5000.00, 'ali', 'ASSET-687FB77CDDE08', 2, 'جيدة', '2025-07-22 13:08:28', '2025-07-22 13:18:49'),
+(20, 'نم', '2025-07-22', NULL, 3, '2025-07-22', 3, 2.00, '4', 'ASSET-687FCEB60582D', 3, 'جيدة', '2025-07-22 14:47:34', '2025-07-22 14:47:34');
 
 -- --------------------------------------------------------
 
@@ -176,7 +215,7 @@ CREATE TABLE `asset_deletion_confirmations` (
 --
 
 INSERT INTO `asset_deletion_confirmations` (`id`, `asset_id`, `is_confirmed`, `created_at`, `updated_at`, `requested_by`) VALUES
-(8, 17, 0, '2025-07-14 17:55:34', '2025-07-14 17:55:34', 1);
+(11, 19, 0, '2025-07-22 13:21:04', '2025-07-22 13:21:04', 1);
 
 -- --------------------------------------------------------
 
@@ -195,11 +234,11 @@ CREATE TABLE `cache` (
 --
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('laravel_cache_356a192b7913b04c54574d18c28d46e6395428ab', 'i:1;', 1752526430),
-('laravel_cache_356a192b7913b04c54574d18c28d46e6395428ab:timer', 'i:1752526430;', 1752526430),
-('laravel_cache_livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:1;', 1752342140),
-('laravel_cache_livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1752342140;', 1752342140),
-('laravel_cache_spatie.permission.cache', 'a:3:{s:5:\"alias\";a:4:{s:1:\"a\";s:2:\"id\";s:1:\"b\";s:4:\"name\";s:1:\"c\";s:10:\"guard_name\";s:1:\"r\";s:5:\"roles\";}s:11:\"permissions\";a:33:{i:0;a:4:{s:1:\"a\";i:1;s:1:\"b\";s:5:\"admin\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:1;a:4:{s:1:\"a\";i:6;s:1:\"b\";s:10:\"view users\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:2;a:4:{s:1:\"a\";i:7;s:1:\"b\";s:12:\"create users\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:3;a:4:{s:1:\"a\";i:8;s:1:\"b\";s:12:\"update users\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:4;a:4:{s:1:\"a\";i:9;s:1:\"b\";s:12:\"delete users\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:5;a:4:{s:1:\"a\";i:10;s:1:\"b\";s:10:\"view roles\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:6;a:4:{s:1:\"a\";i:11;s:1:\"b\";s:12:\"create roles\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:7;a:4:{s:1:\"a\";i:12;s:1:\"b\";s:12:\"update roles\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:8;a:4:{s:1:\"a\";i:13;s:1:\"b\";s:12:\"delete roles\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:9;a:4:{s:1:\"a\";i:18;s:1:\"b\";s:16:\"view permissions\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:10;a:4:{s:1:\"a\";i:19;s:1:\"b\";s:18:\"create permissions\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:11;a:4:{s:1:\"a\";i:20;s:1:\"b\";s:18:\"update permissions\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:12;a:4:{s:1:\"a\";i:21;s:1:\"b\";s:18:\"delete permissions\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:13;a:4:{s:1:\"a\";i:22;s:1:\"b\";s:11:\"view assets\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:14;a:4:{s:1:\"a\";i:23;s:1:\"b\";s:12:\"delete activ\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:15;a:4:{s:1:\"a\";i:24;s:1:\"b\";s:10:\"view maint\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:16;a:4:{s:1:\"a\";i:25;s:1:\"b\";s:12:\"delete maint\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:17;a:4:{s:1:\"a\";i:26;s:1:\"b\";s:12:\"update maint\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:18;a:4:{s:1:\"a\";i:27;s:1:\"b\";s:12:\"create maint\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:19;a:4:{s:1:\"a\";i:28;s:1:\"b\";s:13:\"create assets\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:20;a:4:{s:1:\"a\";i:29;s:1:\"b\";s:13:\"update assets\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:21;a:4:{s:1:\"a\";i:30;s:1:\"b\";s:13:\"delete assets\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:22;a:4:{s:1:\"a\";i:31;s:1:\"b\";s:9:\"view dept\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:23;a:4:{s:1:\"a\";i:32;s:1:\"b\";s:11:\"create dept\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:24;a:4:{s:1:\"a\";i:33;s:1:\"b\";s:11:\"update dept\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:25;a:4:{s:1:\"a\";i:34;s:1:\"b\";s:11:\"delete dept\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:26;a:4:{s:1:\"a\";i:35;s:1:\"b\";s:10:\"view activ\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:27;a:4:{s:1:\"a\";i:36;s:1:\"b\";s:12:\"create activ\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:28;a:4:{s:1:\"a\";i:37;s:1:\"b\";s:12:\"update activ\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:29;a:4:{s:1:\"a\";i:40;s:1:\"b\";s:8:\"view nav\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:30;a:4:{s:1:\"a\";i:41;s:1:\"b\";s:10:\"delete del\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:31;a:4:{s:1:\"a\";i:42;s:1:\"b\";s:10:\"update del\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:32;a:4:{s:1:\"a\";i:43;s:1:\"b\";s:8:\"view del\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}}s:5:\"roles\";a:1:{i:0;a:3:{s:1:\"a\";i:1;s:1:\"b\";s:5:\"admin\";s:1:\"c\";s:3:\"web\";}}}', 1752866381),
+('laravel_cache_356a192b7913b04c54574d18c28d46e6395428ab', 'i:1;', 1753201149),
+('laravel_cache_356a192b7913b04c54574d18c28d46e6395428ab:timer', 'i:1753201149;', 1753201149),
+('laravel_cache_livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:2;', 1757706613),
+('laravel_cache_livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1757706613;', 1757706613),
+('laravel_cache_spatie.permission.cache', 'a:3:{s:5:\"alias\";a:4:{s:1:\"a\";s:2:\"id\";s:1:\"b\";s:4:\"name\";s:1:\"c\";s:10:\"guard_name\";s:1:\"r\";s:5:\"roles\";}s:11:\"permissions\";a:34:{i:0;a:4:{s:1:\"a\";i:1;s:1:\"b\";s:5:\"admin\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:5;}}i:1;a:4:{s:1:\"a\";i:6;s:1:\"b\";s:10:\"view users\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:3;}}i:2;a:4:{s:1:\"a\";i:7;s:1:\"b\";s:12:\"create users\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:5;}}i:3;a:4:{s:1:\"a\";i:8;s:1:\"b\";s:12:\"update users\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:4;a:4:{s:1:\"a\";i:9;s:1:\"b\";s:12:\"delete users\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:5;a:4:{s:1:\"a\";i:10;s:1:\"b\";s:10:\"view roles\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:3;}}i:6;a:4:{s:1:\"a\";i:11;s:1:\"b\";s:12:\"create roles\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:5;}}i:7;a:4:{s:1:\"a\";i:12;s:1:\"b\";s:12:\"update roles\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:8;a:4:{s:1:\"a\";i:13;s:1:\"b\";s:12:\"delete roles\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:9;a:4:{s:1:\"a\";i:18;s:1:\"b\";s:16:\"view permissions\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:3;}}i:10;a:4:{s:1:\"a\";i:19;s:1:\"b\";s:18:\"create permissions\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:5;}}i:11;a:4:{s:1:\"a\";i:20;s:1:\"b\";s:18:\"update permissions\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:12;a:4:{s:1:\"a\";i:21;s:1:\"b\";s:18:\"delete permissions\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:13;a:4:{s:1:\"a\";i:22;s:1:\"b\";s:11:\"view assets\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:3;}}i:14;a:4:{s:1:\"a\";i:23;s:1:\"b\";s:12:\"delete activ\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:5;}}i:15;a:4:{s:1:\"a\";i:24;s:1:\"b\";s:10:\"view maint\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:3;}}i:16;a:4:{s:1:\"a\";i:25;s:1:\"b\";s:12:\"delete maint\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:17;a:4:{s:1:\"a\";i:26;s:1:\"b\";s:12:\"update maint\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:18;a:4:{s:1:\"a\";i:27;s:1:\"b\";s:12:\"create maint\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:5;}}i:19;a:4:{s:1:\"a\";i:28;s:1:\"b\";s:13:\"create assets\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:5;}}i:20;a:4:{s:1:\"a\";i:29;s:1:\"b\";s:13:\"update assets\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:21;a:4:{s:1:\"a\";i:30;s:1:\"b\";s:13:\"delete assets\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:5;}}i:22;a:4:{s:1:\"a\";i:31;s:1:\"b\";s:9:\"view dept\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:3;}}i:23;a:4:{s:1:\"a\";i:32;s:1:\"b\";s:11:\"create dept\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:5;}}i:24;a:4:{s:1:\"a\";i:33;s:1:\"b\";s:11:\"update dept\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:25;a:4:{s:1:\"a\";i:34;s:1:\"b\";s:11:\"delete dept\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:26;a:4:{s:1:\"a\";i:35;s:1:\"b\";s:10:\"view activ\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:3:{i:0;i:1;i:1;i:3;i:2;i:5;}}i:27;a:4:{s:1:\"a\";i:36;s:1:\"b\";s:12:\"create activ\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:5;}}i:28;a:4:{s:1:\"a\";i:37;s:1:\"b\";s:12:\"update activ\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:29;a:4:{s:1:\"a\";i:40;s:1:\"b\";s:8:\"view nav\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:3;}}i:30;a:4:{s:1:\"a\";i:41;s:1:\"b\";s:10:\"delete del\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:31;a:4:{s:1:\"a\";i:42;s:1:\"b\";s:10:\"update del\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:32;a:4:{s:1:\"a\";i:43;s:1:\"b\";s:8:\"view del\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:3;}}i:33;a:3:{s:1:\"a\";i:44;s:1:\"b\";s:6:\"asest4\";s:1:\"c\";s:3:\"web\";}}s:5:\"roles\";a:3:{i:0;a:3:{s:1:\"a\";i:1;s:1:\"b\";s:5:\"admin\";s:1:\"c\";s:3:\"web\";}i:1;a:3:{s:1:\"a\";i:5;s:1:\"b\";s:7:\"admin27\";s:1:\"c\";s:3:\"web\";}i:2;a:3:{s:1:\"a\";i:3;s:1:\"b\";s:6:\"normal\";s:1:\"c\";s:3:\"web\";}}}', 1757760861),
 ('laravel-cache-livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:2;', 1752248099),
 ('laravel-cache-livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1752248099;', 1752248099);
 
@@ -235,7 +274,8 @@ CREATE TABLE `departments` (
 INSERT INTO `departments` (`id`, `name`, `created_at`, `updated_at`) VALUES
 (1, 'it', '2025-07-11 14:02:27', '2025-07-11 14:02:27'),
 (2, 'test', '2025-07-14 15:58:09', '2025-07-14 15:58:09'),
-(3, 'new', '2025-07-14 17:44:18', '2025-07-14 17:44:18');
+(3, 'new', '2025-07-14 17:44:18', '2025-07-14 17:44:18'),
+(4, 'admin', '2025-07-19 19:24:33', '2025-07-19 19:24:33');
 
 -- --------------------------------------------------------
 
@@ -258,7 +298,10 @@ CREATE TABLE `department_user` (
 INSERT INTO `department_user` (`id`, `user_id`, `department_id`, `created_at`, `updated_at`) VALUES
 (7, 1, 3, NULL, NULL),
 (8, 1, 1, NULL, NULL),
-(10, 1, 2, NULL, NULL);
+(10, 1, 2, NULL, NULL),
+(11, 1, 4, NULL, NULL),
+(12, 7, 1, NULL, NULL),
+(13, 8, 1, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -332,7 +375,8 @@ CREATE TABLE `maintenances` (
 --
 
 INSERT INTO `maintenances` (`id`, `asset_id`, `note`, `maintenance_date`, `status`, `created_at`, `updated_at`) VALUES
-(14, 17, 'جيد', '2025-06-10', 'تمت الصيانة', '2025-07-14 17:52:52', '2025-07-14 17:53:51');
+(18, 19, 'fix battery', '2025-05-22', 'Maintenance Completed', '2025-07-22 13:17:24', '2025-07-22 13:18:49'),
+(19, 19, 'fix battery', '2025-07-22', 'Maintenance Completed', '2025-07-22 13:18:20', '2025-07-22 13:18:20');
 
 -- --------------------------------------------------------
 
@@ -374,11 +418,11 @@ INSERT INTO `media` (`id`, `model_type`, `model_id`, `uuid`, `collection_name`, 
 (21, 'App\\Models\\Maintenance', 10, 'da8af920-4fbc-4792-a6d4-92dc3a47a8fc', 'images', 'Screenshot from 2025-07-11 15-48-50', '01JZZ4JVK7VN9CDBG5XMZNFK4J.png', 'image/png', 'public', 'public', 191594, '[]', '[]', '[]', '[]', 1, '2025-07-12 07:58:34', '2025-07-12 07:58:34'),
 (22, 'App\\Models\\Maintenance', 11, '00eecb8f-847c-4c88-a672-49fdb607a9d8', 'images', 'Screenshot from 2025-07-11 16-36-44', '01JZZ4S6G3465J6K63W8T4BRWY.png', 'image/png', 'public', 'public', 262406, '[]', '[]', '[]', '[]', 1, '2025-07-12 08:02:02', '2025-07-12 08:02:02'),
 (28, 'App\\Models\\Maintenance', 12, 'b60ca1f5-6189-449f-ab1a-3e5d35e7a0b8', 'images', 'Screenshot from 2025-07-11 16-33-10', '01JZZXGJEYTTMJ294HT3WRWVXP.png', 'image/png', 'public', 'public', 267398, '[]', '[]', '[]', '[]', 1, '2025-07-12 15:14:14', '2025-07-12 15:14:14'),
-(33, 'App\\Models\\Asset', 16, 'fa33f9fc-a1d8-4c36-b98f-47b0e90e3e8c', 'image', 'Screenshot from 2025-06-29 21-14-49', '01K05B0VRP58QM8446QJNFYKCH.png', 'image/png', 'public', 'public', 153262, '[]', '[]', '[]', '[]', 1, '2025-07-14 17:46:31', '2025-07-14 17:46:31'),
-(34, 'App\\Models\\Asset', 16, '8b27a1d7-8f9c-4032-8000-dc289da1c9b6', 'document', 'Screenshot from 2025-07-11 16-33-10', '01K05B0VSMM8AJMB71EQRE1H7Q.png', 'image/png', 'public', 'public', 267398, '[]', '[]', '[]', '[]', 2, '2025-07-14 17:46:31', '2025-07-14 17:46:31'),
-(35, 'App\\Models\\Asset', 17, '31147d89-0908-48af-ab22-bfe1186a03eb', 'image', 'Screenshot from 2025-07-11 15-48-50', '01K05B7P8023W3YZSNVS4HK3VE.png', 'image/png', 'public', 'public', 191594, '[]', '[]', '[]', '[]', 1, '2025-07-14 17:50:15', '2025-07-14 17:50:15'),
-(36, 'App\\Models\\Asset', 17, '5671ab97-6740-46c0-9d82-02cc9b2bdf5a', 'document', 'Screenshot from 2025-07-11 16-33-10', '01K05B7P94S2M21P4KK1D97CW4.png', 'image/png', 'public', 'public', 267398, '[]', '[]', '[]', '[]', 2, '2025-07-14 17:50:15', '2025-07-14 17:50:15'),
-(37, 'App\\Models\\Maintenance', 14, 'ce9d0e89-1882-45d2-a525-e42a704be1ec', 'images', 'Screenshot from 2025-07-11 15-48-50', '01K05BCFC4B1EM97PAWQAR1BFP.png', 'image/png', 'public', 'public', 191594, '[]', '[]', '[]', '[]', 1, '2025-07-14 17:52:52', '2025-07-14 17:52:52');
+(37, 'App\\Models\\Maintenance', 14, 'ce9d0e89-1882-45d2-a525-e42a704be1ec', 'images', 'Screenshot from 2025-07-11 15-48-50', '01K05BCFC4B1EM97PAWQAR1BFP.png', 'image/png', 'public', 'public', 191594, '[]', '[]', '[]', '[]', 1, '2025-07-14 17:52:52', '2025-07-14 17:52:52'),
+(40, 'App\\Models\\Asset', 19, 'e4dad4ea-a877-4ca4-a6d3-60a4638a02e1', 'image', 'Screenshot from 2025-07-11 15-48-50', '01K0SE9G03G1DTRY76NEJAC4CK.png', 'image/png', 'public', 'public', 191594, '[]', '[]', '[]', '[]', 1, '2025-07-22 13:08:28', '2025-07-22 13:08:28'),
+(41, 'App\\Models\\Asset', 19, 'e2dff7ae-a463-49ff-a9f7-c9b191767ece', 'document', 'Screenshot from 2025-06-29 21-00-06', '01K0SE9G23W4YMR7MHN2JMS007.png', 'image/png', 'public', 'public', 112787, '[]', '[]', '[]', '[]', 2, '2025-07-22 13:08:28', '2025-07-22 13:08:28'),
+(42, 'App\\Models\\Maintenance', 18, '494811dc-9919-42e3-9fc3-e19ab996c720', 'images', 'Screenshot from 2025-07-11 15-48-50', '01K0SESV6KX9TK5K04Q0QCSJG5.png', 'image/png', 'public', 'public', 191594, '[]', '[]', '[]', '[]', 1, '2025-07-22 13:17:24', '2025-07-22 13:17:24'),
+(43, 'App\\Models\\Maintenance', 19, '37aa3834-9f82-4d4c-b15c-9f98abef6ee2', 'images', 'Screenshot from 2025-07-11 16-33-10', '01K0SEVHT95TEPWBA88JB82001.png', 'image/png', 'public', 'public', 267398, '[]', '[]', '[]', '[]', 1, '2025-07-22 13:18:20', '2025-07-22 13:18:20');
 
 -- --------------------------------------------------------
 
@@ -418,7 +462,8 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (24, '2025_07_14_174010_create_notifications_table', 7),
 (25, '2025_07_14_181812_create_department_user_table', 8),
 (26, '2025_07_14_185103_create_asset_deletion_confirmations_table', 9),
-(27, '2025_07_14_185243_create_asset_deletion_confirmations_table', 10);
+(27, '2025_07_14_185243_create_asset_deletion_confirmations_table', 10),
+(28, '2025_09_12_193342_create_staff_table', 11);
 
 -- --------------------------------------------------------
 
@@ -450,7 +495,9 @@ CREATE TABLE `model_has_roles` (
 
 INSERT INTO `model_has_roles` (`role_id`, `model_type`, `model_id`) VALUES
 (1, 'App\\Models\\User', 1),
-(3, 'App\\Models\\User', 4);
+(3, 'App\\Models\\User', 4),
+(3, 'App\\Models\\User', 7),
+(3, 'App\\Models\\User', 8);
 
 -- --------------------------------------------------------
 
@@ -473,9 +520,7 @@ CREATE TABLE `notifications` (
 --
 
 INSERT INTO `notifications` (`id`, `asset_id`, `status`, `message`, `is_read`, `created_at`, `updated_at`) VALUES
-(11, 17, '❌ متأخرة', 'تنبيه صيانة: الأصل رشاش ماء حالته ❌ متأخرة', 0, '2025-07-14 17:50:15', '2025-07-14 17:50:15'),
-(12, 17, '⚠️ أقل من شهر', 'تنبيه صيانة: الأصل رشاش ماء حالته ⚠️ أقل من شهر', 1, '2025-07-14 17:52:52', '2025-07-14 17:57:24'),
-(13, 17, '⚠️ أقل من شهر', 'تنبيه صيانة: الأصل رشاش ماء حالته ⚠️ أقل من شهر', 0, '2025-07-14 17:53:51', '2025-07-14 17:53:51');
+(26, 19, '🔔 Less than two months', 'Maintenance Alert: Asset phone status is 🔔 Less than two months', 1, '2025-07-22 13:18:49', '2025-07-22 13:19:27');
 
 -- --------------------------------------------------------
 
@@ -540,7 +585,8 @@ INSERT INTO `permissions` (`id`, `name`, `guard_name`, `created_at`, `updated_at
 (40, 'view nav', 'web', '2025-07-14 17:38:18', '2025-07-14 17:38:18'),
 (41, 'delete del', 'web', '2025-07-14 17:38:52', '2025-07-14 17:39:33'),
 (42, 'update del', 'web', '2025-07-14 17:40:05', '2025-07-14 17:40:05'),
-(43, 'view del', 'web', '2025-07-14 17:40:38', '2025-07-14 17:40:38');
+(43, 'view del', 'web', '2025-07-14 17:40:38', '2025-07-14 17:40:38'),
+(44, 'asest4', 'web', '2025-07-22 13:29:08', '2025-07-22 13:29:22');
 
 -- --------------------------------------------------------
 
@@ -563,7 +609,8 @@ CREATE TABLE `roles` (
 INSERT INTO `roles` (`id`, `name`, `guard_name`, `created_at`, `updated_at`) VALUES
 (1, 'admin', 'web', '2025-06-08 14:40:14', '2025-06-08 14:40:14'),
 (2, 'admin2', 'web', '2025-06-08 14:59:24', '2025-06-08 14:59:24'),
-(3, 'normal', 'web', '2025-06-23 07:06:02', '2025-06-23 07:06:02');
+(3, 'normal', 'web', '2025-06-23 07:06:02', '2025-06-23 07:06:02'),
+(5, 'admin27', 'web', '2025-07-22 13:28:07', '2025-07-22 13:28:07');
 
 -- --------------------------------------------------------
 
@@ -613,7 +660,27 @@ INSERT INTO `role_has_permissions` (`permission_id`, `role_id`) VALUES
 (40, 1),
 (41, 1),
 (42, 1),
-(43, 1);
+(43, 1),
+(6, 3),
+(10, 3),
+(18, 3),
+(22, 3),
+(24, 3),
+(31, 3),
+(35, 3),
+(40, 3),
+(43, 3),
+(1, 5),
+(7, 5),
+(11, 5),
+(19, 5),
+(23, 5),
+(27, 5),
+(28, 5),
+(30, 5),
+(32, 5),
+(35, 5),
+(36, 5);
 
 -- --------------------------------------------------------
 
@@ -635,8 +702,31 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('QgHH0a7d48ePWZ2qaZnIPXhp8Z3iRTpRDtaDyNcP', 1, '127.0.0.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiYWJCM1JZVEtTcnhQaXlaYnk2eTJ3SmRwNTVpU0Rwa0MwOURBQU55aSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9hY3Rpdml0eS1sb2dzIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJFFCWEdJTFkzVGtId2c3NXdHM2ouQk9KV1M5OG1ndTVYeUpkMjFTUy5uVDRvTElLTml6WEVPIjtzOjg6ImZpbGFtZW50IjthOjA6e31zOjY6InRhYmxlcyI7YToxOntzOjQxOiI1MTEzMjhkYTdmMDkyYWE5ZDBjNWQ3YWQwYWEwMTdhMF9wZXJfcGFnZSI7czozOiJhbGwiO319', 1752526836),
-('wdV3rsyZ6QOXDgCUbbZwVLn7jU8NKLv94rT7cEFj', 1, '127.0.0.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiN2RHalpUcnNQRk9UOVdPdThPSlhqOE83WmxXd1JteWZQQlBsZHVuUiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9ub3RpZmljYXRpb25zIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJFFCWEdJTFkzVGtId2c3NXdHM2ouQk9KV1M5OG1ndTVYeUpkMjFTUy5uVDRvTElLTml6WEVPIjt9', 1752780099);
+('g1WIXI9CzQVacNEdE2Z0svsPF9PRNP7dALaAoeQ1', 1, '127.0.0.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiZEt6MWVzTHJ3M21zM0x1YVRvWjFzY3pGMk9VZ1RmQ29wN2tlYmVHRSI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRRQlhHSUxZM1RrSHdnNzV3RzNqLkJPSldTOThtZ3U1WHlKZDIxU1MublQ0b0xJS05pelhFTyI7fQ==', 1757706859),
+('iBTcc2x9ECU2wWjtryI8wfNoIzn8cIrUhbPviQaq', 2, '127.0.0.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiTXZKWTlVZW1zV1VQbERzMFVPYjNxS3BWSnJyS3VyeWNKODhrNmVHaCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9zdGFmZlBhbmVsIjt9czo1MjoibG9naW5fc3RhZmZfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToyO3M6MTk6InBhc3N3b3JkX2hhc2hfc3RhZmYiO3M6NjA6IiQyeSQxMiQuUjVVTWV4QlJwVDNUNnBpMWROR2FlZlBMMjFqV0dhVm8vT0NYWEJXMWtZUzh1YXFQcUdJdSI7fQ==', 1757706495);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `staff`
+--
+
+CREATE TABLE `staff` (
+  `id` bigint UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `staff`
+--
+
+INSERT INTO `staff` (`id`, `name`, `email`, `password`, `created_at`, `updated_at`) VALUES
+(1, 'Test Staff', 'staff@test.com', '$2y$12$QKI8wOL4PeWtsVXKLGuq.ePw5S3HYK/wqlZrG8gR/2ffLPQq0dXlq', '2025-09-12 16:37:35', '2025-09-12 16:37:35'),
+(2, 'اسامه', 'os@test.com', '$2y$12$.R5UMexBRpT3T6pi1dNGaefPL21jWGaVo/OCXXBW1kYS8uaqPqGIu', '2025-09-12 16:47:49', '2025-09-12 16:47:49');
 
 -- --------------------------------------------------------
 
@@ -660,10 +750,12 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'asaam4292@gmail.com', NULL, '$2y$12$QBXGILY3TkHwg75wG3j.BOJWS98mgu5XyJd21SS.nT4oLIKNizXEO', 'dbmGLAk4KrnlckXs8JbLhN9UrBIzkEWAyU2jPLBS8cCn1rVD7w20DuqObL2x', '2025-06-01 08:33:16', '2025-07-11 12:34:10'),
+(1, 'admin', 'asaam4292@gmail.com', NULL, '$2y$12$QBXGILY3TkHwg75wG3j.BOJWS98mgu5XyJd21SS.nT4oLIKNizXEO', '9nG9wsBz3yQZbHysssDMk8AK6735BL1IaoGn2BgnIDl9o6aKdye54TxdPuIi', '2025-06-01 08:33:16', '2025-07-11 12:34:10'),
 (4, 'news editor', 'asasa2@gmail.come', NULL, '$2y$12$.hDlD.aq.7xBUro4Uj1kFuRlxUSsRCiOKDfz/.OBVnlulpcDqLv0u', 'nN1YuywA3Dhp7x8IDZi0NBKmCCz8dKzq9OyAsbrijnV93HlMQ2WMRZkt77qE', '2025-06-08 14:48:56', '2025-06-08 16:33:02'),
 (5, 'mgd', 'mgd@admin.com', NULL, '$2y$12$gBoxbIq4dLC9DEPZEYRASuqU65WtmjgWzI3MEiV1tdm9LnvobnLFm', 'iy9pIhqEQwTi2Foy1ALbYFoUIsOiKSpiF7tafuDm0rxt12XvIOtHCfIxkaii', '2025-06-23 07:07:12', '2025-06-23 07:07:12'),
-(6, 'Admin', 'admin@example.com', NULL, '$2y$12$I9BrrJ9SBOxnrbbtpTiyBuaJb03Yfg/RDbKfga0VSD35Jt7rrjPci', NULL, '2025-07-11 12:14:40', '2025-07-11 12:14:40');
+(6, 'Admin', 'admin@example.com', NULL, '$2y$12$I9BrrJ9SBOxnrbbtpTiyBuaJb03Yfg/RDbKfga0VSD35Jt7rrjPci', NULL, '2025-07-11 12:14:40', '2025-07-11 12:14:40'),
+(7, 'user2', 'user2@asest.com', NULL, '$2y$12$xbW7rn.c6itfWGkyEyM60OFjMpkkgvW6vJkaqPCOsWajj7cKeTzsK', NULL, '2025-07-22 13:26:09', '2025-07-22 13:26:09'),
+(8, 'user', 'user@gmail.come', NULL, '$2y$12$qMa4uW23UhOjVqYqlYwkZeGlhsLSki9g3pJMezl09kG4P9dTw.p7e', NULL, '2025-07-25 09:28:57', '2025-07-25 09:28:57');
 
 --
 -- Indexes for dumped tables
@@ -815,6 +907,13 @@ ALTER TABLE `sessions`
   ADD KEY `sessions_last_activity_index` (`last_activity`);
 
 --
+-- Indexes for table `staff`
+--
+ALTER TABLE `staff`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `staff_email_unique` (`email`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -829,31 +928,31 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `activity_logs`
 --
 ALTER TABLE `activity_logs`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=83;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=122;
 
 --
 -- AUTO_INCREMENT for table `assets`
 --
 ALTER TABLE `assets`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `asset_deletion_confirmations`
 --
 ALTER TABLE `asset_deletion_confirmations`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `departments`
 --
 ALTER TABLE `departments`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `department_user`
 --
 ALTER TABLE `department_user`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
@@ -871,43 +970,49 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `maintenances`
 --
 ALTER TABLE `maintenances`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `media`
 --
 ALTER TABLE `media`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 
 --
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT for table `notifications`
 --
 ALTER TABLE `notifications`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `permissions`
 --
 ALTER TABLE `permissions`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
 -- AUTO_INCREMENT for table `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `staff`
+--
+ALTER TABLE `staff`
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- Constraints for dumped tables
