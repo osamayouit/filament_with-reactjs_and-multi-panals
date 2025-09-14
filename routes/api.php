@@ -35,3 +35,11 @@ use App\Http\Controllers\Api\StudentFileUploadController;
 Route::get('/countries', [StudentApiController::class, 'countries']);
 Route::post('/students/submit', [StudentApiController::class, 'submitStudent']);
 Route::post('/students/upload-file', [StudentFileUploadController::class, 'uploadFile']);
+
+
+// routes/api.php
+use App\Models\Notification;
+
+Route::get('/notifications', function () {
+    return Notification::latest()->take(10)->get();
+});

@@ -8,6 +8,7 @@
 <?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
 <?php endif; ?>
 <?php $component->withAttributes([]); ?>
+        <div id="notifications-widget"></div>
     <div id="dashboard-widget"></div>
     <?php echo app('Illuminate\Foundation\Vite')->reactRefresh(); ?>
     <?php echo app('Illuminate\Foundation\Vite')('resources/js/app.jsx'); ?>
